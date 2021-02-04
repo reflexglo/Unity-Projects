@@ -17,11 +17,7 @@ public class PlayerMovement : MonoBehaviour
     public float groundDistance = 0.4f;
     public float jumpHeight = 20f;
     public LayerMask groundMask;
-    Vector3 velocity;
     bool isGrounded;
-    public Camera cam;
-    float xRotation = 0f;
-    float yRotation = 0f;
     public float mouseSensitivity = 800f;
     bool hasKey = false;
     bool inRange = false;
