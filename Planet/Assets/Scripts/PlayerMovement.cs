@@ -170,6 +170,17 @@ public class PlayerMovement : MonoBehaviour
     {
         hasKey = key;
     }
+
+    //Get method for hasKey
+    public bool getKey()
+    {
+        return hasKey;
+    }
+    //Get method for inRange
+    public bool getRange()
+    {
+        return inRange;
+    }
     //Determines if timer is less than the initial time
     public bool halfTime()
     {

@@ -34,4 +34,9 @@ public class MouseLook : MonoBehaviour
     {
         endGame = end;
     }
+    //Get method for endGame
+    public bool getEnd()
+    {
+        return endGame;
+    }
 }
